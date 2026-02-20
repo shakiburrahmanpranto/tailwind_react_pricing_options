@@ -1,0 +1,31 @@
+import React from "react";
+import { Line, LineChart, XAxis, YAxis } from "recharts";
+
+const resultData = [
+  { name: "student_1", physics: 82, chemistry: 79, math: 85 },
+  { name: "student_2", physics: 71, chemistry: 83, math: 77 },
+  { name: "student_3", physics: 59, chemistry: 61, math: 56 },
+  { name: "student_4", physics: 93, chemistry: 88, math: 95 },
+  { name: "student_5", physics: 87, chemistry: 92, math: 89 },
+  { name: "student_6", physics: 66, chemistry: 58, math: 62 },
+  { name: "student_7", physics: 78, chemistry: 80, math: 81 },
+  { name: "student_8", physics: 91, chemistry: 90, math: 94 },
+  { name: "student_9", physics: 74, chemistry: 72, math: 76 },
+  { name: "student_10", physics: 69, chemistry: 65, math: 68 },
+];
+
+const ResultChart = () => {
+  return (
+    <div>
+      <LineChart width={500} height={500} data={resultData}>
+        <XAxis dataKey={"name"}></XAxis>
+        <YAxis></YAxis>
+        <Line dataKey="math"></Line>
+        <Line dataKey="chemistry" stroke="yellow"></Line>
+        <Line dataKey="physics" stroke="red"></Line>
+      </LineChart>
+    </div>
+  );
+};
+
+export default ResultChart;
