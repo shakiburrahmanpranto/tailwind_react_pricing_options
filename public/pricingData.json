@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "title": "Basic",
+    "price": "$29.99/month",
+    "billing": "per month",
+    "description": "Perfect for people starting their fitness journey",
+    "features": [
+      "Full gym access",
+      "Free locker usage",
+      "1 guest pass / month",
+      "Basic fitness assessment"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Plus",
+    "price": "$49.99/month",
+    "billing": "per month",
+    "description": "Ideal for consistent gym-goers who want more value",
+    "features": [
+      "Everything in Basic",
+      "Unlimited group classes",
+      "Sauna access",
+      "Nutrition guidance"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Ultimate",
+    "price": "$79.99/month",
+    "billing": "per month",
+    "description": "For serious athletes who want maximum results",
+    "features": [
+      "Everything in Plus",
+      "4 personal training sessions / month",
+      "Priority class booking"
+    ]
+  }
+]
